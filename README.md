@@ -79,7 +79,6 @@ All business metrics are defined once and reused everywhere.
 * Distributor is the largest channel (43% of sales) but has the lowest margin (36.3%). Online has the best margin (40.9%), which makes it the most
 * Electronics (Laptop and Smartphone) brings in 68% of revenue but earns the lowest category margin (35.5%). Accessories earns the best (49.9%, with Headphones at 53.6%) but is a small share of sales.
 * Sales are fairly spread across customers. The top customer, Delta Mart, is about 13% of sales and the top three together are about 36%.
----
 
 # Recommendations
  
@@ -91,7 +90,10 @@ All business metrics are defined once and reused everywhere.
 
 # Limitations
 
-
+- The dataset is small (240 orders, 12 customers, 2 years), so percentages such as regional growth can swing sharply on a few large orders. Treat them as directions to investigate, not final conclusions.
+- Profit here is **gross profit** (sales minus cost of goods). It does not include marketing, logistics, discounts or overheads.
+- There is no sales target or budget in the data, so performance is compared with last year only.
+- **Next steps:** add targets and budget vs actual, customer segmentation (for example RFM) to identify the best accounts, a discount and returns view, and a forecast of the next 6 to 12 months.
 
 # Challenges
 
