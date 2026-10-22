@@ -44,7 +44,10 @@ Dim_Region ───┤
 Dim_Product ──┼──►  Fact_Sales  ◄── Dim_Date (calendar table)
 Dim_Channel ──┘
 ```
-
+- Four relationships are many-to-one, single direction, from Fact_Sales to the Customer, Region, Product and Channel dimensions.
+- **Dim_Date** is a calculated calendar table covering every day from 1 January of the first year to 31 December of the last year in the data. It adds Year, Quarter, Month, Month Year and a numeric sort key so months sort chronologically (Jan 2024, Feb 2024, ...) rather than alphabetically.
+- A dedicated **Measure** table holds all DAX measures, which keeps the field list tidy.
+> Note: the Date table is used by the time-intelligence measures (year-over-year) and by the Year slicer. If it is not already related to `Fact_Sales[OrderDate]` on the model view, add that relationship (Dim_Date[Date] to Fact_Sales[OrderDate], one-to-many) so the Year slicer and YoY calculations filter the facts correctly.
 
 
 
