@@ -73,34 +73,12 @@ All business metrics are defined once and reused everywhere.
 
 ## 5. Key Findings
  
-All figures below are for the full period (2024-2025)
- 
-**Overall performance**
-- Total sales are **$362.7K** and gross profit is **$138.9K**, a margin of **38.3%**, across 240 orders.
-- Sales grew **11.0%** from $171.9K in 2024 to $190.8K in 2025. Gross profit grew faster, by **18.6%**, and margin improved from **37.0% to 39.5%**. The business is growing profitably.
-- Units sold actually fell slightly (382 to 367), so the growth came from higher value per sale, not from selling more items.
-
-**Where sales come from**
-- **Distributor** is the largest channel at **$154.4K (43% of sales)**, but it has the lowest margin (36.3%).
-- **Online** earns the best margin (**40.9%**) on $113.9K of sales, so it is the most efficient channel to grow.
-- **South** is the biggest region at **$133.8K (37% of sales)**.
-**Regional growth is very uneven**
- 
-| Region | 2024 | 2025 | YoY |
-|---|---|---|---|
-| South | $45.4K | $88.4K | **+94%** |
-| West | $33.0K | $35.5K | +8% |
-| North | $48.0K | $39.2K | -18% |
-| East | $45.5K | $27.7K | **-39%** |
-
-Almost all of the company's growth comes from South. North and East are shrinking.
- 
-**Products and categories**
-- **Electronics** (Laptop and Smartphone) brings in **68% of revenue** ($245.6K), but at the lowest category margin (35.5%). Laptops alone are $151.2K at a 34.4% margin.
-- **Accessories** (Headphones and Monitor) has the best category margin (**49.9%**) but a small share of revenue. Headphones have the highest product margin (53.6%).
-- Furniture (Office Chair) and Office Equipment (Printer) are small, steady contributors at around 40% margin.
-**Customers**
-- Sales are fairly spread out. The top customer, Delta Mart, accounts for about 13% of sales, and the top three (Delta Mart, Lighthouse Co, Indigo Corp) for about 36%.
+* Sales grew 11% year over year, from $171.9K to $190.8K. Profit grew faster (+18.6%), so margin improved from 37.0% to 39.5%. The business is growing profitably.
+* The growth came from higher value per sale, not from selling more. Units sold slipped slightly (382 to 367).
+* South is the growth engine. It is the largest region (37% of sales) and grew 94% year over year, while West grew 8%, North fell 18% and East fell 39%. Almost all of the company's growth comes from South.
+* Distributor is the largest channel (43% of sales) but has the lowest margin (36.3%). Online has the best margin (40.9%), which makes it the most
+* Electronics (Laptop and Smartphone) brings in 68% of revenue but earns the lowest category margin (35.5%). Accessories earns the best (49.9%, with Headphones at 53.6%) but is a small share of sales.
+* Sales are fairly spread across customers. The top customer, Delta Mart, is about 13% of sales and the top three together are about 36%.
 ---
 
 # Recommendations 
