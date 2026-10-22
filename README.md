@@ -100,6 +100,16 @@ All figures below are for the full period (2024-2025)
 | North | $48.0K | $39.2K | -18% |
 | East | $45.5K | $27.7K | **-39%** |
 
+Almost all of the company's growth comes from South. North and East are shrinking.
+ 
+**Products and categories**
+- **Electronics** (Laptop and Smartphone) brings in **68% of revenue** ($245.6K), but at the lowest category margin (35.5%). Laptops alone are $151.2K at a 34.4% margin.
+- **Accessories** (Headphones and Monitor) has the best category margin (**49.9%**) but a small share of revenue. Headphones have the highest product margin (53.6%).
+- Furniture (Office Chair) and Office Equipment (Printer) are small, steady contributors at around 40% margin.
+**Customers**
+- Sales are fairly spread out. The top customer, Delta Mart, accounts for about 13% of sales, and the top three (Delta Mart, Lighthouse Co, Indigo Corp) for about 36%.
+---
+
 # Recommendations 
 
 
