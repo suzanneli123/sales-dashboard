@@ -81,14 +81,15 @@ All business metrics are defined once and reused everywhere.
 * Sales are fairly spread across customers. The top customer, Delta Mart, is about 13% of sales and the top three together are about 36%.
 ---
 
-# Recommendations 
-
-
-
+## 6. Recommendations
+ 
+1. **Make more profit on laptops and distributor sales**. These bring in the most money, but we keep the least profit from each dollar. Charging a little more or spending a little less on them would add a lot of profit.
+2. **Copy what worked in South.** Find out what drove the 94% growth (customers, pricing, channel mix, sales coverage) and test it in other regions.
+3. **Investigate the East and North declines.** East lost nearly 40% of its sales year over year. Check whether this is lost customers, fewer orders or pricing.
+4. **Push high-margin Accessories.** Headphones and Monitors can be bundled or cross-sold with Laptops and Smartphones to lift overall margin.
+5. **Watch customer concentration.** Keep the top accounts happy, and also target the growth of smaller ones like Evergreen Co and Fusion Retail
 
 # Limitations
-
-
 
 
 
