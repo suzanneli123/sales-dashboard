@@ -1,4 +1,6 @@
-# Sales Performance Intelligence Dashboard
+# Sales Performance Dashboard
+ 
+An interactive Power BI dashboard that shows how the business is selling, where the money is coming from, and whether that growth is actually profitable.
 
 # Business Goal
 The company sells technology and office products (laptops, smartphones, monitors, headphones, printers and office chairs) to 12 business customers. Orders come in through three channels (Distributor, Retail and Online) across four regions (North, South, East and West).
