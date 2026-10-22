@@ -49,7 +49,21 @@ Dim_Channel ──┘
 - A dedicated **Measure** table holds all DAX measures, which keeps the field list tidy.
 > Note: the Date table is used by the time-intelligence measures (year-over-year) and by the Year slicer. If it is not already related to `Fact_Sales[OrderDate]` on the model view, add that relationship (Dim_Date[Date] to Fact_Sales[OrderDate], one-to-many) so the Year slicer and YoY calculations filter the facts correctly.
 
-
+### Step 3: KPI design (DAX)
+All business metrics are defined once and reused everywhere.
+ 
+| KPI | Definition | DAX logic |
+|---|---|---|
+| Total Sales | Revenue from all orders | `SUM(SalesAmount)` |
+| Total Cost | Cost of goods sold | `SUM(CostAmount)` |
+| Gross Profit | Sales minus cost | `[Total Sales] - [Total Cost]` |
+| Gross Profit Margin / Margin % | Share of each sales dollar kept as profit | `DIVIDE([Gross Profit], [Total Sales])` |
+| Total Orders | Number of distinct orders | `DISTINCTCOUNT(OrderID)` |
+| Total Customers | Number of distinct customers | `DISTINCTCOUNT(Customer)` |
+| Average Order Value | Revenue per order | `DIVIDE([Total Sales], [Total Orders])` |
+| Units Sold | Total quantity sold | `SUM(Quantity)` |
+| Average Selling Price | Revenue per unit | `DIVIDE([Total Sales], [Units Sold])` |
+| Gross Profit per Unit | Profit earned on each unit | `DIVIDE([Gross Profit], [Units Sold])` |
 
 # Results
 
