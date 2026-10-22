@@ -71,7 +71,7 @@ All business metrics are defined once and reused everywhere.
 - Total Sales and Gross Profit are always shown side by side, so "big but not profitable" is easy to spot.
 - Margin % is placed in tooltips on most charts to keep the visuals clean while still giving the detail on hover.
 
-## 5. Key Findings
+# Key Findings
  
 * Sales grew 11% year over year, from $171.9K to $190.8K. Profit grew faster (+18.6%), so margin improved from 37.0% to 39.5%. The business is growing profitably.
 * The growth came from higher value per sale, not from selling more. Units sold slipped slightly (382 to 367).
@@ -81,7 +81,7 @@ All business metrics are defined once and reused everywhere.
 * Sales are fairly spread across customers. The top customer, Delta Mart, is about 13% of sales and the top three together are about 36%.
 ---
 
-## 6. Recommendations
+# Recommendations
  
 1. **Make more profit on laptops and distributor sales**. These bring in the most money, but we keep the least profit from each dollar. Charging a little more or spending a little less on them would add a lot of profit.
 2. **Copy what worked in South.** Find out what drove the 94% growth (customers, pricing, channel mix, sales coverage) and test it in other regions.
