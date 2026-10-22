@@ -64,6 +64,13 @@ All business metrics are defined once and reused everywhere.
 | Units Sold | Total quantity sold | `SUM(Quantity)` |
 | Average Selling Price | Revenue per unit | `DIVIDE([Total Sales], [Units Sold])` |
 | Gross Profit per Unit | Profit earned on each unit | `DIVIDE([Gross Profit], [Units Sold])` |
+| Sales per Customer | Revenue per customer | `DIVIDE([Total Sales], [Total Customers])` |
+| Transactions per Customer | Orders per customer | `DIVIDE([Total Orders], [Total Customers])` |
+| Sales Previous Year | Same period last year | `CALCULATE([Total Sales], SAMEPERIODLASTYEAR(Dim_Date[Date]))` |
+| Sales YoY % | Growth vs last year | `DIVIDE([Total Sales] - [Sales Previous Year], [Sales Previous Year])` |
+| Units Sold YoY % | Volume growth vs last year | Same pattern applied to units |
+| Top Revenue Product | Best-selling product in the current filter | `TOPN(1, products, [Total Sales])` |
+| Highest-Margin Category | Most profitable category in the current filter | `TOPN(1, categories, [Gross Profit Margin])` |
 
 # Results
 
