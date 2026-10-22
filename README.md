@@ -35,9 +35,15 @@ What this project sets out to do
 - **Dimension tables** (Dim_Product, Dim_Customer, Dim_Region, Dim_Channel) were each created by keeping only the relevant columns and removing duplicates, so every dimension has one row per unique value.
 - Data types were set explicitly (dates, whole numbers for quantity, decimals for sales and cost).
 
-
-# Data Modeling
-
+### Step 2: Data model (star schema)
+The model is a star schema: one central fact table and descriptive dimensions around it. This keeps filters predictable and the DAX simple.
+ 
+```
+Dim_Customer ─┐
+Dim_Region ───┤
+Dim_Product ──┼──►  Fact_Sales  ◄── Dim_Date (calendar table)
+Dim_Channel ──┘
+```
 
 
 
