@@ -80,7 +80,7 @@ All business metrics are defined once and reused everywhere.
 
 ## 5. Key Findings
  
-All figures below are for the full period (2024 to 2025), with no filters applied.
+All figures below are for the full period (2024-2025)
  
 **Overall performance**
 - Total sales are **$362.7K** and gross profit is **$138.9K**, a margin of **38.3%**, across 240 orders.
