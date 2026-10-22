@@ -1,6 +1,4 @@
-# sales-dashboard
-
-
+# Sales Performance Intelligence Dashboard
 
 # Business Goal
 
