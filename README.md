@@ -87,6 +87,19 @@ All figures below are for the full period (2024-2025)
 - Sales grew **11.0%** from $171.9K in 2024 to $190.8K in 2025. Gross profit grew faster, by **18.6%**, and margin improved from **37.0% to 39.5%**. The business is growing profitably.
 - Units sold actually fell slightly (382 to 367), so the growth came from higher value per sale, not from selling more items.
 
+**Where sales come from**
+- **Distributor** is the largest channel at **$154.4K (43% of sales)**, but it has the lowest margin (36.3%).
+- **Online** earns the best margin (**40.9%**) on $113.9K of sales, so it is the most efficient channel to grow.
+- **South** is the biggest region at **$133.8K (37% of sales)**.
+**Regional growth is very uneven**
+ 
+| Region | 2024 | 2025 | YoY |
+|---|---|---|---|
+| South | $45.4K | $88.4K | **+94%** |
+| West | $33.0K | $35.5K | +8% |
+| North | $48.0K | $39.2K | -18% |
+| East | $45.5K | $27.7K | **-39%** |
+
 # Recommendations 
 
 
