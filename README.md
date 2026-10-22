@@ -29,11 +29,11 @@ What this project sets out to do
 **Fields in the sales data:** OrderID, OrderDate, Customer, Region, Product, Category, Channel, Quantity, SalesAmount, CostAmount.
 
 # Methodology
-
-
-
-
-**Approach:** 
+### Step 1: Data preparation (Power Query)
+- Loaded a single staging sales table and used it as the base for all other tables.
+- **Fact_Sales** was created by removing the Category column, because category belongs to the product, not the order.
+- **Dimension tables** (Dim_Product, Dim_Customer, Dim_Region, Dim_Channel) were each created by keeping only the relevant columns and removing duplicates, so every dimension has one row per unique value.
+- Data types were set explicitly (dates, whole numbers for quantity, decimals for sales and cost).
 
 
 # Data Modeling
