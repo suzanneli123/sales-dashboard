@@ -98,6 +98,9 @@ All business metrics are defined once and reused everywhere.
 # Tools Used
  
 - **Power BI Desktop**: data modelling and dashboard
-- **Power Query (M)**: data cleaning and dimension tables
-- **DAX**: KPIs, time intelligence, dynamic cards
-- **Custom visuals**: dual-axis column chart, HTML content, summary table
+- **Power Query**: data cleaning and dimension tables
+- **DAX**: KPIs
+- **Custom visuals**: dual-axis column chart
+
+## Author
+Suzanne Li
