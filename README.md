@@ -95,3 +95,9 @@ All business metrics are defined once and reused everywhere.
 - There is no sales target or budget in the data, so performance is compared with last year only.
 - **Next steps:** add targets and budget vs actual, customer segmentation (for example RFM) to identify the best accounts, a discount and returns view, and a forecast of the next 6 to 12 months.
 
+# Tools Used
+ 
+- **Power BI Desktop**: data modelling and dashboard
+- **Power Query (M)**: data cleaning and dimension tables
+- **DAX**: KPIs, time intelligence, dynamic cards
+- **Custom visuals**: dual-axis column chart, HTML content, summary table
