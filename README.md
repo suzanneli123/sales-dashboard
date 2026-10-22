@@ -12,7 +12,7 @@ What this project sets out to do
 4. Compare year-over-year growth by region to see where the business is gaining or losing ground.
 5. Turn the numbers into clear recommendations on where to invest, where to fix pricing or cost, and where to grow.
 
-# Data Source
+# Data
 | Item | Detail |
 |---|---|
 | Grain | One row per order (240 orders, each with a unique Order ID) |
