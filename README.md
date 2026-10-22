@@ -72,9 +72,20 @@ All business metrics are defined once and reused everywhere.
 | Top Revenue Product | Best-selling product in the current filter | `TOPN(1, products, [Total Sales])` |
 | Highest-Margin Category | Most profitable category in the current filter | `TOPN(1, categories, [Gross Profit Margin])` |
 
-# Results
+### Step 4: Data Visualization
+- Fixed 1920 x 1080 canvas with a dark navy header band and a consistent blue and gray-blue palette.
+- Green and red are used only for growth and decline, so colour always carries meaning.
+- Total Sales and Gross Profit are always shown side by side, so "big but not profitable" is easy to spot.
+- Margin % is placed in tooltips on most charts to keep the visuals clean while still giving the detail on hover.
 
-
+## 5. Key Findings
+ 
+All figures below are for the full period (2024 to 2025), with no filters applied.
+ 
+**Overall performance**
+- Total sales are **$362.7K** and gross profit is **$138.9K**, a margin of **38.3%**, across 240 orders.
+- Sales grew **11.0%** from $171.9K in 2024 to $190.8K in 2025. Gross profit grew faster, by **18.6%**, and margin improved from **37.0% to 39.5%**. The business is growing profitably.
+- Units sold actually fell slightly (382 to 367), so the growth came from higher value per sale, not from selling more items.
 
 # Recommendations 
 
