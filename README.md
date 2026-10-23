@@ -25,7 +25,7 @@ The goals of this project:
 | Channels | 3 (Distributor, Retail, Online) |
 | Source | `sales_data.xlsx` |
  
-**Fields in the sales data:** OrderID, OrderDate, Customer, Region, Product, Category, Channel, Quantity, SalesAmount, CostAmount.
+**Fields:** OrderID, OrderDate, Customer, Region, Product, Category, Channel, Quantity, SalesAmount, CostAmount.
 
 # Methodology
 ### Step 1: Data preparation (Power Query)
