@@ -6,7 +6,6 @@ An interactive Power BI dashboard that shows how the business is selling, where 
 The company sells technology and office products to 12 business customers. Orders come in through three channels (Distributor, Retail and Online) across four regions (North, South, East and West).
 
 Management could see that sales were going up, but they could not answer simple follow-up questions quickly. Is the growth real? Is it making us more money or just more revenue? Which products, channels and regions are carrying the business, and where are we leaving money on the table?
-The goal of this project is to give leadership one place to answer those questions and decide where to focus next.
 
 The goals of this project:
 1. Track overall sales, profit and margin, and show whether they are moving up or down compared with last year.
