@@ -23,7 +23,7 @@ The goals of this project:
 | Products | 6, grouped into 4 categories |
 | Regions | 4 (North, South, East, West) |
 | Channels | 3 (Distributor, Retail, Online) |
-| Source | Staging sales table loaded into Power BI *(add your source file or system name here)* |
+| Source | Staging sales table loaded into Power BI *(sales_data.xlsx)* |
  
 **Fields in the sales data:** OrderID, OrderDate, Customer, Region, Product, Category, Channel, Quantity, SalesAmount, CostAmount.
 
