@@ -24,8 +24,8 @@ The goals of this project:
 | Regions | 4 (North, South, East, West) |
 | Channels | 3 (Distributor, Retail, Online) |
 | Source | `sales_data.xlsx` |
+| Fields | OrderID, OrderDate, Customer, Region, Product, Category, Channel, Quantity, SalesAmount, CostAmount
  
-**Fields:** OrderID, OrderDate, Customer, Region, Product, Category, Channel, Quantity, SalesAmount, CostAmount.
 
 # Methodology
 ### Step 1: Data preparation (Power Query)
