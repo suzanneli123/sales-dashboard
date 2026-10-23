@@ -37,9 +37,8 @@ The goals of this project:
 
 ### Step 2: Data model (star schema)
 
-I organized the data using a star schema with one fact table
-and five dimension tables. Each dimension has a one-to-many
-relationship with the sales fact table.
+The data follows a star schema, with one central fact table linked to five dimension tables through one-to-many relationships.
+<img width="1700" height="1050" alt="image" src="https://github.com/user-attachments/assets/bddef79a-1538-42ba-b746-755b11a259b2" />
 
 ### Step 3: KPI design (DAX)
  
@@ -81,7 +80,11 @@ relationship with the sales fact table.
 - The dataset is small (240 orders, 12 customers, 2 years), so percentages such as regional growth can swing sharply on a few large orders. Treat them as directions to investigate, not final conclusions.
 - Profit here is **gross profit** (sales minus cost of goods). It does not include marketing, logistics, discounts or overheads.
 - There is no sales target or budget in the data, so performance is compared with last year only.
-- **Next steps:** add targets and budget vs actual, customer segmentation (for example RFM) to identify the best accounts, a discount and returns view, and a forecast of the next 6 to 12 months.
+
+ ## What I would do next time
+ - Add targets and budget vs actual
+ - customer segmentation (for example RFM) to identify the best accounts
+ - forecast of the next 6 to 12 months.
 
 # Tools Used
  
