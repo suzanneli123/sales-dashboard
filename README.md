@@ -8,7 +8,7 @@ The company sells technology and office products to 12 business customers. Order
 Management could see that sales were going up, but they could not answer simple follow-up questions quickly. Is the growth real? Is it making us more money or just more revenue? Which products, channels and regions are carrying the business, and where are we leaving money on the table?
 The goal of this project is to give leadership one place to answer those questions and decide where to focus next.
 
-What this project sets out to do
+The goals of this project:
 1. Track overall sales, profit and margin, and show whether they are moving up or down compared with last year.
 2. Find which regions, channels, products and customers drive the most revenue.
 3. Separate "high sales" from "high profit" to spot where we sell a lot but earn little.
@@ -36,21 +36,12 @@ What this project sets out to do
 - Data types were set explicitly (dates, whole numbers for quantity, decimals for sales and cost).
 
 ### Step 2: Data model (star schema)
-The model is a star schema: one central fact table and descriptive dimensions around it. This keeps filters predictable and the DAX simple.
- 
-```
-Dim_Customer ─┐
-Dim_Region ───┤
-Dim_Product ──┼──►  Fact_Sales  ◄── Dim_Date (calendar table)
-Dim_Channel ──┘
-```
-- Four relationships are many-to-one, single direction, from Fact_Sales to the Customer, Region, Product and Channel dimensions.
-- **Dim_Date** is a calculated calendar table covering every day from 1 January of the first year to 31 December of the last year in the data. It adds Year, Quarter, Month, Month Year and a numeric sort key so months sort chronologically (Jan 2024, Feb 2024, ...) rather than alphabetically.
-- A dedicated **Measure** table holds all DAX measures, which keeps the field list tidy.
-> Note: the Date table is used by the time-intelligence measures (year-over-year) and by the Year slicer. If it is not already related to `Fact_Sales[OrderDate]` on the model view, add that relationship (Dim_Date[Date] to Fact_Sales[OrderDate], one-to-many) so the Year slicer and YoY calculations filter the facts correctly.
+
+I organized the data using a star schema with one fact table
+and five dimension tables. Each dimension has a one-to-many
+relationship with the sales fact table.
 
 ### Step 3: KPI design (DAX)
-All business metrics are defined once and reused everywhere.
  
 | KPI | Definition | DAX logic |
 |---|---|---|
@@ -66,10 +57,7 @@ All business metrics are defined once and reused everywhere.
 | Highest-Margin Category | Most profitable category in the current filter | `TOPN(1, categories, [Gross Profit Margin])` |
 
 ### Step 4: Data Visualization
-- Fixed 1920 x 1080 canvas with a dark navy header band and a consistent blue and gray-blue palette.
-- Green and red are used only for growth and decline, so colour always carries meaning.
-- Total Sales and Gross Profit are always shown side by side, so "big but not profitable" is easy to spot.
-- Margin % is placed in tooltips on most charts to keep the visuals clean while still giving the detail on hover.
+
 
 # Key Findings
  
