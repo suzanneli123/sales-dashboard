@@ -17,15 +17,14 @@ The goals of this project:
 # Data
 | Item | Detail |
 |---|---|
+| Source | `sales_data.xlsx` |
+| Fields | OrderID, OrderDate, Customer, Region, Product, Category, Channel, Quantity, SalesAmount, CostAmount
 | Grain | One row per order (240 orders, each with a unique Order ID) |
 | Period | January 2024 to December 2025 (2 full years) |
 | Customers | 12 |
 | Products | 6, grouped into 4 categories |
 | Regions | 4 (North, South, East, West) |
 | Channels | 3 (Distributor, Retail, Online) |
-| Source | `sales_data.xlsx` |
-| Fields | OrderID, OrderDate, Customer, Region, Product, Category, Channel, Quantity, SalesAmount, CostAmount
- 
 
 # Methodology
 ### Step 1: Data preparation (Power Query)
