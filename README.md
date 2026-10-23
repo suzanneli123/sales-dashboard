@@ -56,7 +56,7 @@ The data follows a star schema, with one central fact table linked to five dimen
 ### Step 4: Data Visualization
 
 
-# Key Findings
+## Key Findings
  
 * Sales grew 11% year over year, from $171.9K to $190.8K. Profit grew faster (+18.6%), so margin improved from 37.0% to 39.5%. The business is growing profitably.
 * The growth came from higher value per sale, not from selling more. Units sold slipped slightly (382 to 367).
@@ -65,7 +65,7 @@ The data follows a star schema, with one central fact table linked to five dimen
 * Electronics (Laptop and Smartphone) brings in 68% of revenue but earns the lowest category margin (35.5%). Accessories earns the best (49.9%, with Headphones at 53.6%) but is a small share of sales.
 * Sales are fairly spread across customers. The top customer, Delta Mart, is about 13% of sales and the top three together are about 36%.
 
-# Recommendations
+## Recommendations
  
 1. **Make more profit on laptops and distributor sales**. These bring in the most money, but we keep the least profit from each dollar. Charging a little more or spending a little less on them would add a lot of profit.
 2. **Copy what worked in South.** Find out what drove the 94% growth (customers, pricing, channel mix, sales coverage) and test it in other regions.
@@ -78,13 +78,13 @@ The data follows a star schema, with one central fact table linked to five dimen
 - Explore customer purchasing behavior to identify trends and opportunities for growth
 - Build a sales forecast for the next 6-12 months using historical data
 
-# Limitations
+## Limitations
 
 - The dataset is small (240 orders, 12 customers, 2 years), so percentages such as regional growth can swing sharply on a few large orders. Treat them as directions to investigate, not final conclusions.
 - Profit here is **gross profit** (sales minus cost of goods). It does not include marketing, logistics, discounts or overheads.
 - There is no sales target or budget in the data, so performance is compared with last year only.
 
-# Tools Used
+## Tools Used
  
 - **Power BI Desktop**
 - **Power Query**: data cleaning and data modeling (fact and dimension tables)
