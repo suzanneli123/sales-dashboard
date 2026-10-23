@@ -88,10 +88,10 @@ The data follows a star schema, with one central fact table linked to five dimen
 
 # Tools Used
  
-- **Power BI Desktop**: data modelling and dashboard
-- **Power Query**: data cleaning and dimension tables
+- **Power BI Desktop**
+- **Power Query**: data cleaning and data modeling (fact and dimension tables)
 - **DAX**: KPIs
-- **Custom visuals**: dual-axis column chart
+- **Custom visuals**
 
 ## Author
 Suzanne Li
