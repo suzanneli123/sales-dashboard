@@ -73,16 +73,16 @@ The data follows a star schema, with one central fact table linked to five dimen
 4. **Push high-margin Accessories.** Headphones and Monitors can be bundled or cross-sold with Laptops and Smartphones to lift overall margin.
 5. **Watch customer concentration.** Keep the top accounts happy, and also target the growth of smaller ones like Evergreen Co and Fusion Retail
 
+ ## What I would do next time
+- Add sales targets to compare actual performance against business goals
+- Explore customer purchasing behavior to identify trends and opportunities for growth
+- Build a sales forecast for the next 6-12 months using historical data
+
 # Limitations
 
 - The dataset is small (240 orders, 12 customers, 2 years), so percentages such as regional growth can swing sharply on a few large orders. Treat them as directions to investigate, not final conclusions.
 - Profit here is **gross profit** (sales minus cost of goods). It does not include marketing, logistics, discounts or overheads.
 - There is no sales target or budget in the data, so performance is compared with last year only.
-
- ## What I would do next time
- - Add targets and budget vs actual
- - customer segmentation (for example RFM) to identify the best accounts
- - forecast of the next 6 to 12 months.
 
 # Tools Used
  
